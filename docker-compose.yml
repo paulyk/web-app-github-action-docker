@@ -4,7 +4,7 @@ version: '3.4'
 
 services:
   webapp:
-    image: webapp
+    image: paulyk/web-app-docker-demo
     build:
       context: .
       dockerfile: Web.App/Dockerfile
